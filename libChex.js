@@ -3,7 +3,7 @@ Check JavaScript Library versions loaded into a web application
 Script by @ticarpi
 (Updated May 19th 2023)
 Run in browser console by pasting:
-libChex = document.createElement("script"); libChex.src = "https://raw.githubusercontent.com/ticarpi/ticwebtools/main/libChex.js"; document.head.appendChild(libChex);
+libChex = document.createElement("script"); libChex.src = "https://YOURSITE/libChex.js"; document.head.appendChild(libChex);
 Or if that fails (CSP blocking for example):
 Paste this whole script into the browser console and hit ENTER to run.
 */
