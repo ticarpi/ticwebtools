@@ -49,6 +49,6 @@ header('Access-Control-Allow-Origin: *');
 	if (isset($bval)) {
 		echo(base64_decode($bval));
 	} else {
-		echo("########################################################\n# Welcome to responser.php by @ticarpi                 #\n# This is a tool to serve content based on your input. #\n########################################################\n\nUse the URL parameters:\n* c for Content-Type\n* b for Base64 data to interpret\n\nExample: responser.php?c=html&b=PGgxPkl0IHdvcmtzITwvaDE%2B\n(See more examples in the PHP source code)\n\nValid Content-Type options:\nhtml/json/xml/csv/js/zip (defaults to plain if not set)\n\nBuild your Base64 content in the browser console using:\nencodeURIComponent(btoa('Your content here'))");
+		echo("########################################################\n# Welcome to responser.php by @ticarpi                 #\n# This is a tool to serve content based on your input. #\n########################################################\n\nUse the URL parameters:\n* c for Content-Type\n* b for Base64 data to interpret\n\nExample:\nresponser.php?c=html&b=PGgxPkl0IHdvcmtzITwvaDE%2B\n(See more examples in the PHP source code)\n\nValid Content-Type options:\nhtml/json/xml/csv/js/zip (defaults to plain if not set)\n\nBuild your Base64 content in the browser console using:\nencodeURIComponent(btoa('Your content here'))");
 	};
 ?>
