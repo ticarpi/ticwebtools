@@ -1,1 +1,1 @@
-document.location(atob(location.hash.slice(1)))
+window.location=atob(location.hash.slice(1))
