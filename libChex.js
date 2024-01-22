@@ -33,6 +33,7 @@ libs = {
 'Mustache.js':[['Mustache.version'],'https://security.snyk.io/package/npm/mustache/'],
 'Next.js':[['next.version','globalThis[\'next\'].version'],'https://security.snyk.io/package/npm/next/'],
 'Node.js':[['process.versions'],'https://security.snyk.io/package/npm/node/'],
+'PrimeFaces':[['PrimeFaces.VERSION'],'https://security.snyk.io/package/maven/org.primefaces:primefaces/'],
 'Raphael':[['Raphael.version'],'https://security.snyk.io/package/npm/raphael/'],
 'Snap':[['Snap.version'],'https://security.snyk.io/package/npm/snap.js/'],
 'Toastr':[['toastr.version'],'https://security.snyk.io/package/npm/toastr/']
