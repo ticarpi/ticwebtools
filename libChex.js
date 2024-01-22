@@ -1,13 +1,13 @@
 /*
 Check JavaScript Library versions loaded into a web application
 Script by @ticarpi
-(Updated May 19th 2023)
+(Updated Jan 22nd 2024)
 Run in browser console by pasting:
 libChex = document.createElement("script"); libChex.src = "https://YOURSITE/libChex.js"; document.head.appendChild(libChex);
 Or if that fails (CSP blocking for example):
 Paste this whole script into the browser console and hit ENTER to run.
 */
-libchexvers = '1.0.0'
+libchexvers = '1.1'
 libs = {
 'Ace':[['ace.version'],'https://security.snyk.io/package/npm/ace-builds/'],
 'AngularJS':[['angular.version'],'https://security.snyk.io/package/npm/angular/'],
@@ -23,6 +23,7 @@ libs = {
 'GSAP':[['gsap.version'],'https://security.snyk.io/package/npm/gsap/'],
 'Hammer.js':[['Hammer.VERSION'],'https://security.snyk.io/package/npm/hammerjs/'],
 'Handlebars':[['Handlebars.VERSION'],'https://security.snyk.io/package/npm/handlebars/'],
+'Highcharts':[['Highcharts.version'],'https://security.snyk.io/package/npm/highcharts'],
 'jQuery':[['jQuery().jquery'],'https://security.snyk.io/package/npm/jquery/'],
 'jQuery UI':[['jQuery.ui.version'],'https://security.snyk.io/package/npm/jquery-ui/'],
 'jQuery Migrate':[['jQuery.migrateVersion'],'https://security.snyk.io/package/npm/jquery-migrate/'],
