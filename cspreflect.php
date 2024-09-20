@@ -1,9 +1,9 @@
 <?php
 ########################################################
-# A PHP tool to serve arbitrary content,               #
-# using your choice of content-type header             #
+# A PHP tool to serve CSP headers,                     #
+# to use for testing arbitrary policies on             #
+# online evaluators like: https://csper.io/evaluator   #
 # Written by Andy Tyler (@ticarpi)                     #
-# Please use responsibly...                            #
 # Software URL: https://github.com/ticarpi/ticwebtools #
 ########################################################
 
