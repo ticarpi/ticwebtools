@@ -6,6 +6,7 @@ A collection of web tools crafted for web app pentesting
 ## Files
 
 * `responser.php` - a PHP tool for serving content based on URI parameter input
+* `cspreflect.php` - a PHP tool for serving arbitrary CSP policies for use on online services like https://csper.io/evaluator
 * `xss.js` - a basic XSS POC payload
 * `libChex.js` - a toolkit for identifying outdated JavaScript libraries on a webpage
 * `JSattack.js` - a tool to dump JavaScript-accessible data from a webpage, including: HTML5 storage, cookies, JS variables, objects, functions, and the full contents of the DOM
